@@ -1,0 +1,41 @@
+name: Paid work inquiry
+description: Request a quote for a CSV diagnostic or small Python fix.
+title: "[Inquiry] "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is PUBLIC. Use synthetic examples only. This is an inquiry, not a purchase or accepted contract."
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+        - CSV import diagnosis (starting at USD 49)
+        - Small Python bug fix (starting at USD 149)
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and current failure
+      description: Include a small synthetic example or public repository link.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance check
+      description: What observable result would show the job is complete?
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Desired deadline and budget
+  - type: checkboxes
+    id: ownership
+    attributes:
+      label: Scope
+      options:
+        - label: I own or have permission to use the relevant files or software, and have included no confidential data here.
+          required: true
