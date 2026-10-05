@@ -1,4 +1,11 @@
-# GETITMON — CSV diagnostics and small Python fixes
+# GETITMON — commercial project research and focused technical work
+
+**New: Austin next-trade project briefs.** Find commercial project records that
+may signal a later service need, such as access control after an office remodel
+or cleaning after a tenant finish-out. Every entry separates recorded facts from
+inferences and links its source. [Read the three-project sample](COMMERCIAL-SIGNALS-SAMPLE.md).
+The proposed pilot is $99 for one scoped brief; these are research signals, not
+confirmed buyers or open bids.
 
 Have a CSV import that keeps failing, or a small Python script that produces
 the wrong result? Request a scoped, AI-assisted repair with reproducible checks.
@@ -7,6 +14,7 @@ the wrong result? Request a scoped, AI-assisted repair with reproducible checks.
 
 | Service | Starting price (USD) | Proposed deliverable |
 | --- | ---: | --- |
+| Austin commercial project brief | $99 | Up to ten source-linked project signals for one agreed service niche |
 | CSV import diagnosis | $49 | A validation report, explanation of the errors, and a repeatable local check |
 | Small Python bug fix | $149 | One focused patch, a regression test, and run instructions |
 

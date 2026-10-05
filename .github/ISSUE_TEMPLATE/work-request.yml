@@ -1,5 +1,5 @@
 name: Paid work inquiry
-description: Request a quote for a CSV diagnostic or small Python fix.
+description: Request a commercial project brief, CSV diagnostic, or small Python fix.
 title: "[Inquiry] "
 body:
   - type: markdown
@@ -10,6 +10,7 @@ body:
     attributes:
       label: Service
       options:
+        - Austin commercial project brief (USD 99 pilot)
         - CSV import diagnosis (starting at USD 49)
         - Small Python bug fix (starting at USD 149)
     validations:
